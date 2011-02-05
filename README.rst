@@ -1,4 +1,4 @@
-tw2.jquery.plugins.elrte
+tw2.jqplugins.elrte
 =====================
 
 :Author: Joseph Tate <jtate@dragonstrider.com>
@@ -9,18 +9,18 @@ tw2.jquery.plugins.elrte
 .. _jQuery UI: http://jqueryui.com/
 .. _jQuery: http://jquery.com/
 
-tw2.jquery.plugins.elrte is a `toscawidgets2 (tw2)`_ wrapper for `elRTE`_.
+tw2.jqplugins.elrte is a `toscawidgets2 (tw2)`_ wrapper for `elRTE`_.
 
 Live Demo
 ---------
-.. comment: Peep the `live demonstration <http://craftsman.rc.rit.edu/module?module=tw2.jquery.plugins.ui>`_.
+.. comment: Peep the `live demonstration <http://craftsman.rc.rit.edu/module?module=tw2.jqplugins.ui>`_.
 
 Links
 -----
-Get the `source from github <http://github.com/ralphbean/tw2.jquery.plugins.ui>`_.
+Get the `source from github <http://github.com/ralphbean/tw2.jqplugins.ui>`_.
 
-`PyPI page <http://pypi.python.org/pypi/tw2.jquery.plugins.elrte>`_
-and `bugs <http://github.com/ralphbean/tw2.jquery.plugins.ui/issues/>`_
+`PyPI page <http://pypi.python.org/pypi/tw2.jqplugins.elrte>`_
+and `bugs <http://github.com/ralphbean/tw2.jqplugins.ui/issues/>`_
 
 Description
 -----------
@@ -40,5 +40,5 @@ you write JavaScript.
 
 Main goal of the editor - simplify work with text and formating (HTML) on sites, blogs, forums and other online services.
 
-This module, tw2.jquery.plugins.elrte, provides `toscawidgets2 (tw2)`_ access to the
+This module, tw2.jqplugins.elrte, provides `toscawidgets2 (tw2)`_ access to the
 `elRTE`_ widget.

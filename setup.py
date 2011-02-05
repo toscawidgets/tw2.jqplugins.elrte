@@ -11,19 +11,19 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 
 setup(
-    name='tw2.jquery.plugins.elrte',
+    name='tw2.jqplugins.elrte',
     version='2.0b8',
     description='toscawidgets2 wrapper for elRTE',
     long_description=long_description,
     author='Joseph Tate',
     author_email='jtate@dragonstrider.com',
     license='MIT',
-    url='http://bitbucket.org/josephtate/tw2.jquery.plugins.elrte',
+    url='http://bitbucket.org/josephtate/tw2.jqplugins.elrte',
     install_requires=[
         "tw2.core>=2.0b2",
         "tw2.forms",
         "tw2.jquery",
-        'tw2.jquery.plugins.ui',
+        'tw2.jqplugins.ui',
         ],
     extras_require = {
         'genshi': _extra_genshi,
@@ -31,14 +31,14 @@ setup(
     },
     tests_require = ['BeautifulSoup', 'nose', 'FormEncode', 'WebTest',] + _extra_genshi + _extra_mako,
     packages=find_packages(exclude=['ez_setup', 'tests']),
-    namespace_packages = ['tw2', 'tw2.jquery.plugins'],
+    namespace_packages = ['tw2', 'tw2.jqplugins'],
     zip_safe=False,
     include_package_data=True,
     test_suite = 'nose.collector',
     entry_points="""
         [tw2.widgets]
         # Register your widgets so they can be listed in the WidgetBrowser
-        widgets = tw2.jquery.plugins.elrte
+        widgets = tw2.jqplugins.elrte
     """,
     keywords = [
         'toscawidgets.widgets',

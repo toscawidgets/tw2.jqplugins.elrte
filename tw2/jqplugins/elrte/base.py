@@ -5,7 +5,7 @@ from tw2.core.resources import encoder
 
 # tw2.jquery imports
 # import from *this* package
-from tw2.jquery.plugins.elrte import defaults
+from tw2.jqplugins.elrte import defaults
 
 ### Resources
 

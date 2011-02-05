@@ -14,7 +14,7 @@ if hasattr(webob, 'NestedMultiDict'):
 else:
     from webob.multidict import NestedMultiDict
 
-import tw2.jquery.plugins.elrte.widgets as w
+import tw2.jqplugins.elrte.widgets as w
 
 class TestjQueryJS(WidgetTest):
     widget = twjqwidgets.jquery_js
@@ -28,14 +28,14 @@ class TestelrteCSS(WidgetTest):
     attrs = {}
     params = {}
     expected = """
-<link rel="stylesheet" type="text/css" href="/resources/tw2.jquery.plugins.elrte/static/jquery/plugins/elrte/1.2/css/elrte.full.css" media="all"/>
+<link rel="stylesheet" type="text/css" href="/resources/tw2.jqplugins.elrte/static/jquery/plugins/elrte/1.2/css/elrte.full.css" media="all"/>
 """
 class TestelrteJS(WidgetTest):
     widget = w.elrte_js
     attrs = {}
     params = {}
     expected = """
-<script type="text/javascript" src="/resources/tw2.jquery.plugins.elrte/static/jquery/plugins/elrte/1.2/js/elrte.full.js"></script>
+<script type="text/javascript" src="/resources/tw2.jqplugins.elrte/static/jquery/plugins/elrte/1.2/js/elrte.full.js"></script>
 """
 
 class TestBase(WidgetTest):

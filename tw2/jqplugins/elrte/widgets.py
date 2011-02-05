@@ -6,11 +6,11 @@ from tw2.core.resources import encoder
 from tw2.jquery import base as jqbase, defaults as jqdefaults
 
 # imports from this package
-from tw2.jquery.plugins.ui import base as jquibase
-from tw2.jquery.plugins.elrte import base as elrtebase
-from tw2.jquery.plugins.elrte import defaults
+from tw2.jqplugins.ui import base as jquibase
+from tw2.jqplugins.elrte import base as elrtebase
+from tw2.jqplugins.elrte import defaults
 
-modname = 'tw2.jquery.plugins.elrte'
+modname = 'tw2.jqplugins.elrte'
 
 #elRTE
 elrte_images = jqbase.DirLink(modname=modname, filename=defaults._plugin_css_dirname_ % dict(name=defaults._elrte_name_, version=defaults._elrte_version_, subdir="images"))
@@ -28,4 +28,4 @@ elrte = jqbase.jQueryJSLink(resources=[elrte_css, elrte_js])
 
 class elRTEWidget(jquibase.JQueryUIWidget):
     resources = [elrte]
-    template = 'tw2.jquery.plugins.elrte.templates.widget'
+    template = 'tw2.jqplugins.elrte.templates.widget'
