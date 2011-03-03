@@ -24,8 +24,6 @@ elrte_js = jqbase.jQueryPluginJSLink(name=defaults._elrte_name_,
     modname = modname,
     version=defaults._elrte_version_)
 
-elrte = jqbase.jQueryJSLink(resources=[elrte_css, elrte_js])
-
 class elRTEWidget(jquibase.JQueryUIWidget):
-    resources = [elrte]
+    resources = [elrte_css, elrte_js]
     template = 'tw2.jqplugins.elrte.templates.widget'
