@@ -1,0 +1,4 @@
+recursive-include tw2/jqplugins/elrte/static *
+recursive-include tw2/jqplugins/elrte/templates *
+include README.rst
+include LICENSE.txt
