@@ -13,14 +13,14 @@ tw2.jqplugins.elrte is a `toscawidgets2 (tw2)`_ wrapper for `elRTE`_.
 
 Live Demo
 ---------
-.. comment: Peep the `live demonstration <http://craftsman.rc.rit.edu/module?module=tw2.jqplugins.ui>`_.
+.. comment: Peep the `live demonstration <http://craftsman.rc.rit.edu/module?module=tw2.jqplugins.elrte>`_.
 
 Links
 -----
-Get the `source from github <http://github.com/ralphbean/tw2.jqplugins.ui>`_.
+Get the `source from github <http://github.com/ralphbean/tw2.jqplugins.elrte>`_.
 
 `PyPI page <http://pypi.python.org/pypi/tw2.jqplugins.elrte>`_
-and `bugs <http://github.com/ralphbean/tw2.jqplugins.ui/issues/>`_
+and `bugs <http://github.com/ralphbean/tw2.jqplugins.elrte/issues/>`_
 
 Description
 -----------
