@@ -17,10 +17,10 @@ Live Demo
 
 Links
 -----
-Get the `source from github <http://github.com/ralphbean/tw2.jqplugins.elrte>`_.
+Get the `source from github <http://github.com/toscawidgets/tw2.jqplugins.elrte>`_.
 
 `PyPI page <http://pypi.python.org/pypi/tw2.jqplugins.elrte>`_
-and `bugs <http://github.com/ralphbean/tw2.jqplugins.elrte/issues/>`_
+and `bugs <http://github.com/toscawidgets/tw2.jqplugins.elrte/issues/>`_
 
 Description
 -----------
@@ -42,3 +42,22 @@ Main goal of the editor - simplify work with text and formating (HTML) on sites,
 
 This module, tw2.jqplugins.elrte, provides `toscawidgets2 (tw2)`_ access to the
 `elRTE`_ widget.
+
+Sampling tw2.jqplugins.elrte in the WidgetBrowser
+-------------------------------------------------
+
+The best way to scope out ``tw2.jqplugins.elrte`` is to load its widgets in the
+``tw2.devtools`` WidgetBrowser.  To see the source code that configures them,
+check out ``tw2.jqplugins.elrte/tw2/jqplugins/elrte/samples.py``
+
+To give it a try you'll need git, python, and `virtualenvwrapper
+<http://pypi.python.org/pypi/virtualenvwrapper>`_.  Run::
+
+    $ git clone git://github.com/toscawidgets/tw2.jqplugins.elrte.git
+    $ cd tw2.jqplugins.elrte
+    $ mkvirtualenv tw2.jqplugins.elrte
+    (tw2.jqplugins.elrte) $ pip install tw2.devtools
+    (tw2.jqplugins.elrte) $ python setup.py develop
+    (tw2.jqplugins.elrte) $ paster tw2.browser
+
+...and browse to http://localhost:8000/ to check it out.
