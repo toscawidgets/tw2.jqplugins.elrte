@@ -12,7 +12,7 @@ _extra_mako = ["Mako >= 0.1.1"]
 
 setup(
     name='tw2.jqplugins.elrte',
-    version='2.0b9',
+    version='2.0b10',
     description='toscawidgets2 wrapper for elRTE',
     long_description=long_description,
     author='Joseph Tate',
