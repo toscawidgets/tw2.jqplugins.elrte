@@ -1,0 +1,16 @@
+*.pyc
+*.rej
+*.orig
+*.swp
+*~
+.DS_Store/
+build/
+dist/
+tw2.core.egg-info
+Thumbs.db
+docs/.output/
+.coverage
+.noseids
+html
+*.egg-info
+*.egg
